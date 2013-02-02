@@ -1,0 +1,110 @@
+<html>
+<head></head>
+<body>
+<script type="text/javascript">
+
+
+allInfo = [
+			["john",+88],
+			["jane", +89],
+			["jeff", +90],
+			["jennifer", +98],
+			["jessica",+70],
+			["jesse", +93],
+			["veronica", +68],
+			["carol", +57],
+			["jacob", +94],
+			["willy", +23],
+];
+
+var john = allInfo[0];
+var jane = allInfo[1];
+var jeff = allInfo[2];
+var jennifer = allInfo[3];
+var jessica = allInfo[4];
+var jesse = allInfo[5];
+var veronica = allInfo[6];
+var carol = allInfo[7];
+var jacob = allInfo[8];
+var willy = allInfo[9];
+
+var johnGrade = john[1];
+var janeGrade = jane[1];
+var jeffGrade = jeff[1];
+var jenniferGrade = jennifer[1];
+var jessicaGrade = jessica[1];
+var jesseGrade = jesse[1];
+var veronicaGrade = veronica[1];
+var carolGrade = carol[1];
+var jacobGrade = jacob[1];
+var willyGrade = willy[1];
+
+
+var gradeTotal = (johnGrade + janeGrade + jeffGrade + jenniferGrade + jessicaGrade + jesseGrade +
+	veronicaGrade + carolGrade + jacobGrade + willyGrade);	
+
+prgradeTotal = function() {
+	console.log(gradeTotal);
+};
+
+prgradeAverage = function() {
+	console.log(gradeAverage);
+};
+
+var gradeAverage = 
+	(gradeTotal / 10);
+
+
+gradeAverage1 = function() {
+	console.log("the average grade of the class was: " + gradeAverage);
+};
+
+letterGrade = function() {
+	if (gradeAverage > 90) {
+		console.log("congrats, you got an A!");
+	}
+	else {
+		if (gradeAverage > 80) {
+			console.log("good work, you got a B!");
+		}
+		else {
+			if (gradeAverage > 70)
+				console.log("it's true that C's make degrees!");
+			else {
+				if (gradeAverage > 60) {
+					console.log("I think you can do better.  you got a D.");
+				}
+				else {
+					console.log("you failed test.  better luck next time.");
+				}
+			}
+		}
+	}
+
+	};
+
+
+prgradeTotal();
+prgradeAverage();
+letterGrade();
+
+</script>
+
+</body>
+</html>
+
+<!-- 
+
+// for (var i = 0; i < allInfo.length[0]; i++) //to iterate thru the 1st part of the array//
+
+// // function that does this
+// // (v + v) / 10
+
+grades = function(number) {
+	for (var i = 0; i < allInfo.length; i++) {
+	
+};
+	allInfo 
+}
+
+grades(); -->
